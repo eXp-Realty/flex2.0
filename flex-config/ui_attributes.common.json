@@ -69,7 +69,7 @@
         "indicator_permanent": true
       },
       "activity_reservation_handler": {
-        "enabled": false,
+        "enabled": true,
         "system_activity_names": {
           "available": "Available",
           "onATask": "On a Task",
@@ -120,13 +120,13 @@
         "enabled": true
       },
       "multi_call": {
-        "enabled": false
+        "enabled": true
       },
       "hang_up_by": {
         "enabled": true
       },
       "chat_transfer": {
-        "enabled": false
+        "enabled": true
       },
       "agent_automation": {
         "enabled": true,
@@ -160,7 +160,7 @@
         "location": "MessageInputActions"
       },
       "keyboard_shortcuts": {
-        "enabled": true
+        "enabled": false
       },
       "custom_hold_music": {
         "enabled": false,
@@ -168,10 +168,10 @@
       },
       "custom_transfer_directory": {
         "enabled": true,
-        "use_paste_search_icon": false,
+        "use_paste_search_icon": true,
         "queue": {
           "enabled": true,
-          "show_only_queues_with_available_workers": false,
+          "show_only_queues_with_available_workers": true,
           "show_real_time_data": true,
           "enforce_queue_filter_from_worker_object": true,
           "enforce_global_exclude_filter": false,
@@ -193,7 +193,7 @@
       "dispositions": {
         "enabled": true,
         "enable_notes": true,
-        "require_disposition": false,
+        "require_disposition": true,
         "global_dispositions": [
           "Resolved",
           "Not Resolved",
@@ -232,7 +232,7 @@
         "enabled": true,
         "columns": {
           "team": true,
-          "department": false,
+          "department": true,
           "location": false,
           "agent_skills": true
         }
